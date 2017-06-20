@@ -230,3 +230,23 @@ p.bio
 .tagline p{
   text-align:center;
 }
+
+@media (max-width: 768px){
+  .pic{
+    z-index: 0;
+    position: relative;
+    right: 0;
+  }
+
+  .pic p {
+    text-align: center;
+    
+  }
+  .pic p img{
+    width: 70vw;
+    height: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}
