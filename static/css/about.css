@@ -243,10 +243,17 @@ p.bio
     
   }
   .pic p img{
-    width: 70vw;
+    width: 80vw;
     height: auto;
     position: relative;
     top: 0;
     right: 0;
+  }
+
+  p.bio{
+    display: block;
+    margin: 10px auto;
+    text-align: justify;
+    width: 80vw
   }
 }
