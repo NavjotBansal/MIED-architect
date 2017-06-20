@@ -226,3 +226,7 @@ p.bio
     margin-top: -110px !important;
   }
 }
+
+.tagline p{
+  text-align:center;
+}
